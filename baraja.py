@@ -1,11 +1,11 @@
 import random
 
+# esto una clase que represanta una baraja de poker
 class Baraja():
     def __init__(self):
         trajes = ["Espadas", "Corazones", "Diamantes", "Treboles"]
         rangos = ["2", "3", "4", "5", "6", "7", "8", "9", "10", "As", "Comodin", "Rey", "Reina"] 
 
-        # baraja de 52 cartas disponible.
         self.barajas = []
 
         # ciclo for para cada traje en trajes
